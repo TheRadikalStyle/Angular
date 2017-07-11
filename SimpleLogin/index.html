@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="IniciarSesion">
+<head>
+	<title>Iniciar sesión</title>
+	<meta charset="utf-8"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="loginController.js"></script>
+</head>
+<body ng-controller="FirstController">
+	<input type="text" placeholder="Nombre de usuario" ng-model="username">
+	<br>
+	<input type="password" placeholder="Contraseña" ng-model="password">
+	<br>
+	<button ng-click="Login()">Iniciar sesión</button>
+</body>
+</html>
