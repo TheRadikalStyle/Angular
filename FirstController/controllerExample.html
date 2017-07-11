@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html ng-app="MyFirstApp">
+<head>
+	<title>Hola Mundo AngularJS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="controller.js"></script><!-- Agregando el controlador a ser usado -->
+</head>
+<body ng-controller="FirstController">
+{{ "Hola " + nombre }}
+<!-- {{"Hola" + " " + "Mundo"}} Esto no necesita controlador porque solo modificamos la vista -->
+</body>
+</html>
